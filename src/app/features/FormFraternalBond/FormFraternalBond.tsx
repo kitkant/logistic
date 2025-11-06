@@ -278,6 +278,9 @@ const Container = styled.div`
 		@media(max-width: 768px){
 			padding: 60px 18px 54px 16px;
 		}
+		@media(max-width: 590px){
+				max-width: 408px;
+		}
 		@media(max-width: 440px){
 			padding: 60px 7px 54px 16px;
 		
