@@ -106,7 +106,9 @@ const Number = styled.span`
 	font-size: 50px;
 	line-height: 30px;
 	flex: 1;
+	@media(max-width: 1280px){
 	text-align: end;
+	}
 `
 const Text = styled.span`
 	font-size: 18px;
